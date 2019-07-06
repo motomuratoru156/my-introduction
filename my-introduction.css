@@ -1,0 +1,153 @@
+.top{
+    float:right;
+    display:flx;
+    width:20%;
+}
+
+body{
+    background-image:url("https://i.pinimg.com/236x/b1/24/97/b12497f009626bcfc19cf56c6ed7f718.jpg");
+    background-size:cover;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color:white
+}
+
+header{
+    width:80%;
+    margin:0 auto;
+    background: #FF9800;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+.container-intro{
+    width:80%;
+    margin:0 auto;
+}
+
+
+.links{
+display:flex;
+justify-content: space-between;
+}
+
+.container{
+    display:flex;
+    float:left;
+    width:25%;
+}
+
+.container p{
+    color:white
+}
+
+.history{
+    width:80%;
+    margin:0 auto;
+}
+
+table{
+    margin:0 auto;
+}
+
+.item{
+    margin:px 10px;
+}
+
+
+footer {
+    list-style: none;
+    width:80%;
+    margin: 0 auto;
+    margin-top:100px;
+}
+
+.stlength-section{
+    width:90%;
+    margin: 0 auto;
+    margin-bottom:150px;
+}
+
+.str{
+    float:left;
+    width:32%;
+    text-align: center;
+    padding:15px;
+    box-sizing: border-box;
+
+}
+
+.goal-section{
+    clear:both;
+}
+
+.goal p{
+    text-align: center;
+
+}
+
+
+.btn{
+    display: inline-block;
+    color:white;
+    margin:20px 0;
+    opacity:0.8;
+}
+
+.btn:hover{
+    opacity:1;
+}
+
+.btn-question{
+    color:blue;
+    text-align: center;
+}
+
+.contact-form{
+margin-right:5px;
+}
+
+.modal {
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+    display:none;
+  }
+
+
+.contact-section{
+    width:70%;
+    margin:0 auto;
+    background: #FF9800;
+
+}
+
+
+.contact-form{
+    background-color:#239b76;
+    border-radius:5px
+
+}
+
+.twitter{
+    background-color:#55acee;
+    border-radius:10px
+}
+
+.goal-section p{
+    text-align: center;
+}
+
+ul{
+    height:500;
+}

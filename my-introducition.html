@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My introduction</title>
+
+  <!-- CSSの読み込み -->
+  <link rel="stylesheet" type="text/css" href="my introduction.css">
+
+  <!-- Bootstrapの読み込み -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+ 
+<!-- jQueryの読み込み -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="my introduction.js"></script>
+</head> 
+
+<body>
+  <header>
+    <h1>Motomura Toru</h1><!--ここの隣に画像を挿入したい -->
+    <img src="child.JPG" class-="baseball" width="300" height="300">
+    <div class="links">
+      <div class="link link-intro"><a href="#introduction">自己紹介</a> </div>
+      <div class="link link-history"><a href="#history">経歴</a> </div>
+      <div class="link link-stregth"><a href="#strength">強み</a> </div>
+      <div class="link link-goal"><a href="#goal">将来の目標</a> </div>
+      <div class="link link-contact"><a href="#contact"> コンタクト</a></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro-section" >
+      <h1 id="introduction">自己紹介</h1>
+      <div class="container-intro">
+        <p>中学で野球部、高校で陸上部と運動部に所属していたこともあり、運動全般は得意です!
+        <br>苦手なことは人に質問することです。自分から質問に行けないので、学生の間は自分の力だけでどう解決すればいいかばかり考えていました。
+        <br>最近はコミュニケーションを取ることが増え,少し改善できていると実感しています。
+        <br>大学入学当初は学生時代に得意だった英語を使って仕事をしたいと思っていたが、大学で過ごすにつれ、これからはITに強くないといけないと実感。
+        <br>プログラミングに目をつけ、未来電子のインターンシップに応募しました。
+        </p>
+      </div>
+    </section>
+
+    <section class="history-section">
+      <h1 id="history">経歴</h1>
+      <table>
+        <tr><th>学年</th><th>内容</th></tr>
+        <tr><td>小4</td><td>友達に誘われ野球に熱中</td></tr>
+        <tr><td>小6</td><td>中学受験のため猛勉強</td></tr>
+        <tr><td>高2</td><td>周りとの学力の差から焦りを感じ猛勉強、文系3教科学年4位に</td></tr>
+        <tr><td>高3</td><td>センター試験英語科目で197点獲得、志望大である同志社大学に合格</td></tr>
+
+      </table>
+    </section>
+
+    <section class="stlength-section" id="strength">
+      <h1>強み</h1>
+      <div class="str">
+        <h2>集中力</h2>
+        <p>自分の興味あることへの集中力は負けません。</p>
+      </div>
+
+      <div class="str">
+        <h2>客観性</h2>
+        <p>今まで人に質問することが苦手だった僕は自分自身が「もっと効率的な方法はないか？」「自分の足りないところはどこか？」ともう一人の自分が問いかけることで、自分の中で問題をどう改善するかという思考が身に付きました。<br>最近は質問することとのバランスを考え効率的な方法を探しています！</p>
+      </div>
+
+      <div class="str">
+        <h2>深堀力</h2>
+        <p>自分がまだ改善できる点があるのにそれをしないことが大嫌いなので、「もっとうまくなるためにはどうすればいいか？」「もっと効率的に学習する方法はないか？」を常々考えています。最近タイピングすることが増えたので、DVORACK配列のキーボードや手の置く位置などもっと速く正確にタイプする方法を模索中です。</p>
+      </div>
+
+    </section>
+
+    <section class="goal-section" id="goal">
+      <h1>将来の目標</h1>
+        <p>プログラミングの知識を完璧にして、自分のアイデアや考えをを自由にパソコンの中で表現できるようになることが一番の目標です!</p>
+    </section>
+
+
+      <div class="btn-question" >
+        <a href="#" >こちらをクリック</a>
+      </div>
+
+    <!-- ここにモーダル作成時に出てくる$(#modal)を作成する-->
+    <div class="modal">
+      <a href="#" class="btn btn-close"><span class="fa fa-close"></span></a>
+      <p>クリックしていただきありがとうございます。<br>よろしければ、このサイトについてご意見をいただけないでしょうか？</p>
+      <textarea name="#"></textarea>
+      <input type="submit" value="送信">
+    </div>
+
+
+    <section class="contact-section" id="contact">
+      <h2>採用担当者の方へ</h2>
+      <p>もし僕に興味をお持ちいただけたなら、ぜひご連絡おねがいします。</p>
+      <a href="contact-form.html" class="btn contact-form"><span></span>コンタクトをとる！</a>
+  
+      <a href="https://twitter.com/" class="btn twitter"><span class="btn fa fa-twitter"></span>TwitterへGO!</a>
+    </section>
+
+  </main>
+
+  <footer>
+    
+  </footer>
+
+  <script src="my introduction.js"></script>
+</body>
+
+</html>
